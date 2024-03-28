@@ -11,8 +11,8 @@ const overlay = document.querySelector('.overlay');
 /* Looping through images */
 
 const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
+newImage.setAttribute('img/space2.jpg', xxx);
+newImage.setAttribute('second image of space', xxx);
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
