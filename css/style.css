@@ -8,7 +8,14 @@ h1 {
     margin: 0 auto;
   }
   
-  .full-img {
+  .gallery {
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+  }
+
+  .gallery-item {
     position: relative;
     display: block;
     width: 640px;
