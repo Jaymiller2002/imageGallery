@@ -7,7 +7,7 @@ const overlay = document.querySelector('.overlay');
 /* Declaring the array of image filenames */
 
 /* Declaring the alternative text for each image file */
-
+const alt = []
 /* Looping through images */
 
 const newImage = document.createElement('img');
