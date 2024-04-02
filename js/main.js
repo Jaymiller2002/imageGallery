@@ -8,28 +8,28 @@ const overlay = document.querySelector('.overlay');
 const imgSrcAltText = [
     {
       url:
-        "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space1.jpg",
-      alt: "Closeup of a human eye"
+        "C:\Users\jaymi\Downloads\space1.jpg",
+      alt: "Magical Space Area 1"
     },
     {
       url:
         "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space2.jpg",
-      alt: "An obscure marble stone"
+      alt: "Magical Space Area 2"
     },
     {
       url:
         "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space3.jpg",
-      alt: "Bunch of brunfelsia pauciflora"
+      alt: "Magical Space Area 3"
     },
     {
       url:
         "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space4.jpg",
-      alt: "An egyptian ancient wall-painting demonstrating human behavior"
+      alt: "Magical Space Area 4"
     },
     {
       url:
         "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space5.jpg",
-      alt: "A butterfly sitting over a large leaf"
+      alt: "Magical Space Area 5"
     }
   ];
   
@@ -50,3 +50,15 @@ const imgSrcAltText = [
   }
 
 /* Wiring up the Darken/Lighten button */
+
+btn.addEventListener("click", (e) => {
+    if (e.target.getAttribute("class") === "dark") {
+      e.target.setAttribute("class", "light");
+      e.target.textContent = "Lighten";
+      overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+    } else {
+      e.target.setAttribute("class", "dark");
+      e.target.textContent = "Darken";
+      overlay.style.backgroundColor = "rgba(0,0,0,0)";
+    }
+  });
