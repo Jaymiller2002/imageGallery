@@ -8,27 +8,27 @@ const overlay = document.querySelector('.overlay');
 const imgSrcAltText = [
     {
       url:
-        "C:\Users\jaymi\Downloads\space1.jpg",
+        "https://github.com/Jaymiller2002/imageGallery/blob/main/img/space1.jpg?raw=true",
       alt: "Magical Space Area 1"
     },
     {
       url:
-        "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space2.jpg",
+        "https://github.com/Jaymiller2002/imageGallery/blob/main/img/space2.jpg?raw=true",
       alt: "Magical Space Area 2"
     },
     {
       url:
-        "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space3.jpg",
+        "https://github.com/Jaymiller2002/imageGallery/blob/main/img/space3.jpg?raw=true",
       alt: "Magical Space Area 3"
     },
     {
       url:
-        "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space4.jpg",
+        "https://github.com/Jaymiller2002/imageGallery/blob/main/img/space4.jpg?raw=true",
       alt: "Magical Space Area 4"
     },
     {
       url:
-        "C:\Users\jaymi\OneDrive\Documents\imageGallery\img\space5.jpg",
+        "https://github.com/Jaymiller2002/imageGallery/blob/main/img/space5.jpg?raw=true",
       alt: "Magical Space Area 5"
     }
   ];
