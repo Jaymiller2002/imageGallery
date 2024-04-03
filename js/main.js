@@ -155,15 +155,6 @@ for (let imgItem of imgSrcAltText) {
     });
   }
   
-imgSrcAltText.forEach(data => {
-  const img = document.createElement("img");
-  img.src = data.url;
-  img.alt = data.alt;
-  img.width = "200"; // Set the width attribute
-  img.height = "150"; // Set the height attribute
-  container.appendChild(img);
-});
-
 /* Wiring up the Darken/Lighten button */
 
 btn.addEventListener("click", (e) => {
