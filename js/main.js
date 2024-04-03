@@ -32,4 +32,31 @@ const imgSrcAltText = [
       alt: "Magical Space Area 5"
     }
   ];
+  /* Looping through images */
+
+for (let imgItem of imgSrcAltText) {
+    const newImage = document.createElement("img");
   
+    newImage.setAttribute("src", imgItem.url);
+    newImage.setAttribute("alt", imgItem.alt);
+  
+    thumbBar.appendChild(newImage);
+  
+    newImage.addEventListener("click", (e) => {
+      displayedImage.src = e.target.src;
+      displayedImage.alt = e.target.alt;
+    });
+  }
+  /* Wiring up the Darken/Lighten button */
+
+btn.addEventListener("click", (e) => {
+    if (e.target.getAttribute("class") === "dark") {
+      e.target.setAttribute("class", "light");
+      e.target.textContent = "Lighten";
+      overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+    } else {
+      e.target.setAttribute("class", "dark");
+      e.target.textContent = "Darken";
+      overlay.style.backgroundColor = "rgba(0,0,0,0)";
+    }
+  });
