@@ -1,4 +1,4 @@
-const displayedImage = document.querySelector('.gallery-item');
+const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
 const btn = document.querySelector('button');
